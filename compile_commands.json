@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "/home/jake/repos/modelCheckerUSD",
+    "command": "g++ -o test src/main.cpp -std=c++17 -I/usr/local/USD/include -L/usr/local/USD/lib -lusd_usd -lusd_usdGeom -lusd_sdf -lusd_tf -lusd_vt -Wno-deprecated -I/home/jake/libs/",
+    "file": "src/main.cpp"
+  },
+  {
+    "directory": "/home/jake/repos/modelCheckerUSD",
+    "command": "g++ -o test src/Mesh.cpp -std=c++17 -I/usr/local/USD/include -L/usr/local/USD/lib -lusd_usd -lusd_usdGeom -lusd_sdf -lusd_tf -lusd_vt -Wno-deprecated -I/home/jake/libs/",
+    "file": "src/Mesh.cpp"
+  }
+]
